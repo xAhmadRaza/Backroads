@@ -20,7 +20,79 @@
   </head>
   <body>
     <!--start of header  -->
-    <header></header>
+    <header class="header">
+      <nav
+        class="navbar container"
+        role="navigation"
+        aria-label="main navigation"
+      >
+        <div class="nav__header">
+          <a href="#" class="logo__link">
+            <img src="./images/logo.svg" class="nav__logo" alt="logo" />
+          </a>
+          <button class="nav__toggle" id="nav-toggle">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+        <!-- start nav links -->
+        <ul class="nav__links" id="nav-links">
+          <!-- start of link  -->
+          <li class="nav__item">
+            <a href="#home" class="nav__link scroll__link">Home</a>
+          </li>
+          <!-- end of link  -->
+          <!-- start of link  -->
+          <li class="nav__item">
+            <a href="#about" class="nav__link scroll__link">About</a>
+          </li>
+          <!-- end of link  -->
+          <!-- start of link  -->
+          <li class="nav__item">
+            <a href="#services" class="nav__link scroll__link">Services</a>
+          </li>
+          <!-- end of link  -->
+          <!-- start of link  -->
+          <li class="nav__item">
+            <a href="#featured" class="nav__link scroll__link">Featured</a>
+          </li>
+          <!-- end of link  -->
+          <!-- start of link  -->
+          <li class="nav__item">
+            <a href="#gallery" class="nav__link scroll__link">Gallery</a>
+          </li>
+          <!-- end of link  -->
+        </ul>
+        <!-- end  nav links -->
+        <!-- start of nav icons -->
+        <ul class="nav__icons">
+          <!-- single icon -->
+          <li class="nav__icon__container">
+            <a class="nav__icon" href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-twitter"></i>
+            </a>
+          </li>
+          <!-- end of single icon -->
+          <!-- single icon -->
+          <li class="nav__icon__container">
+            <a class="nav__icon" href="https://www.facebook.com" target="_blank"
+              ><i class="fab fa-facebook"></i>
+            </a>
+          </li>
+          <!-- end of single icon -->
+          <!-- single icon -->
+          <li class="nav__icon__container">
+            <a
+              class="nav__icon"
+              href="https://www.squrespace.com"
+              target="_blank"
+              ><i class="fab fa-squarespace"></i>
+            </a>
+          </li>
+          <!-- end of single icon -->
+        </ul>
+        <!-- end of nav icons -->
+      </nav>
+    </header>
     <!-- end of header  -->
     <main>
       <!--start of hero section -->
@@ -531,7 +603,83 @@
     </main>
 
     <!-- footer -->
-    <footer></footer>
+    <footer class="section footer">
+      <!-- start footer main nav -->
+      <nav class="footer__nav" role="navigation" aria-label="footer__nav">
+        <!-- start footer nav links -->
+        <ul class="footer__links">
+          <!-- start of link  -->
+          <li class="footer__link__item">
+            <a href="#home" class="footer__link scroll__link">Home</a>
+          </li>
+          <!-- end of link  -->
+          <!-- start of link  -->
+          <li class="footer__link__item">
+            <a href="#about" class="footer__link scroll__link">About</a>
+          </li>
+          <!-- end of link  -->
+          <!-- start of link  -->
+          <li class="footer__link__item">
+            <a href="#services" class="footer__link scroll__link">Services</a>
+          </li>
+          <!-- end of link  -->
+          <!-- start of link  -->
+          <li class="footer__link__item">
+            <a href="#featured" class="footer__link scroll__link">Featured</a>
+          </li>
+          <!-- end of link  -->
+          <!-- start of link  -->
+          <li class="footer__link__item">
+            <a href="#gallery" class="footer__link scroll__link">Gallery</a>
+          </li>
+          <!-- end of link  -->
+        </ul>
+        <!-- end footer nav links -->
+        <!-- start of social icons -->
+        <nav class="social__icon__container" aria-label="socials icon nav">
+          <ul class="footer__icons">
+            <!-- single icon -->
+            <li class="social__link__container">
+              <a
+                class="social__link"
+                href="https://www.facebook.com"
+                target="_blank"
+                ><i class="fab fa-twitter"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li class="social__link__container">
+              <a
+                class="social__link"
+                href="https://www.facebook.com"
+                target="_blank"
+                ><i class="fab fa-facebook"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+            <!-- single icon -->
+            <li class="social__link__container">
+              <a
+                class="social__link"
+                href="https://www.squrespace.com"
+                target="_blank"
+                ><i class="fab fa-squarespace"></i>
+              </a>
+            </li>
+            <!-- end of single icon -->
+          </ul>
+        </nav>
+      </nav>
+      <!-- end footer main nav -->
+      <div class="copyright__container">
+        <small class="copyright__text"
+          >Copyright &copy; Backroads Travel Tours Company
+          <time id="copyright__date" datetime="2024">2024</time>. All Rights
+          Reserved</small
+        >
+      </div>
+    </footer>
     <!-- js -->
     <script src="./js/app.js"></script>
   </body>
